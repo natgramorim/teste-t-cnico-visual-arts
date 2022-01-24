@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEditor;
+using UnityEngine;
+
+public class #SCRIPTNAME# : EditorWindow
+{
+    [MenuItem("Tools/", false, 0)]
+    static void ShowWindow() => GetWindow<AnimationPreviewWindow>("Window Name");
+
+    private void OnEnable()
+    {
+        #NOTRIM#
+    }
+
+    private void OnGUI()
+    {
+        #NOTRIM#
+    }
+}
